@@ -2,6 +2,8 @@
 
 Quickly find and manage files based on the system's find command.
 
+Quickly find and manage files based on the system's find command.
+
 ## Installation
 
 [vim-plug](https://github.com/junegunn/vim-plug)
