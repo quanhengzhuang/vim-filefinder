@@ -30,6 +30,8 @@ map E :call FindInTaglistInsightHere()<CR>
 The key bindings in the filefinder buffer.
 * `Enter` - Open the file in current window.
 * `t` - Open the file in a new tab.
+* `c` - Copy the file.
+* `m` - Move the file.
 * `d` - Delete the file.
 * `r` - Refresh the filefinder buffer.
 * `R` - Run the file.
