@@ -22,8 +22,15 @@ Plugin 'quanhengzhuang/vim-filefinder'
 ## Usage
 
 The following shortcuts are recommended.
-
 ```vim
 map <leader>e :call FindInTaglistHere()<CR>
 map E :call FindInTaglistInsightHere()<CR>
 ```
+
+The key bindings in the filefinder buffer.
+* `Enter` - Open the file in current window.
+* `t` - Open the file in a new tab.
+* `d` - Delete the file.
+* `r` - Refresh the filefinder buffer.
+* `R` - Run the file.
+* `q` - Quit the filefinder.
