@@ -23,8 +23,7 @@ Plugin 'quanhengzhuang/vim-filefinder'
 
 The following shortcuts are recommended.
 ```vim
-map <leader>e :call FindInTaglistHere()<CR>
-map E :call FindInTaglistInsightHere()<CR>
+map <leader>a :FileFind<CR>
 ```
 
 The key bindings in the filefinder buffer.
