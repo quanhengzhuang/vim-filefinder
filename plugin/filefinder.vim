@@ -1,7 +1,7 @@
 " 搜索所有文件名 FileFinder.vim
 " 2014.8.13
 " 命令
-"   :FileFind 显示目录下所有文件
+"   :FinderFind 显示目录下所有文件
 "   :map ea :FinderFind<CR> 绑定一个快捷键
 " 快捷键
 "   Enter             当前窗口打开文件
