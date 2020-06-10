@@ -2,7 +2,7 @@
 " 2014.8.13
 " 命令
 "   :FinderFind 显示目录下所有文件
-"   :map ea :FinderFind<CR> 绑定一个快捷键
+"   :map <leader>a :FinderFind<CR> 绑定一个快捷键
 " 快捷键
 "   Enter             当前窗口打开文件
 "   t                 新窗口打开文件
@@ -16,14 +16,12 @@
 
 " Load once
 if exists('g:loaded_filefinder')
-    "finish
+    finish
 endif
 
 let g:loaded_filefinder = 1
 
-" Maps
-map <leader>a :FinderFind<CR>
-
+" Commands
 command! -nargs=? FinderFind call s:FileFinder_Find(<f-args>)
 
 autocmd BufEnter *.filefinder call FileFinder_Refresh()
