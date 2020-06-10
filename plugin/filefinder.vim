@@ -42,7 +42,7 @@ function! s:FileFinder_Find(...)
     let g:FileFinder_Count += 1
     silent! execute 'file '.g:FileFinder_Name.'_'.g:FileFinder_Count
 
-    let cmd = 'find ./ -type f | grep -i -v "/\." | sort'
+    let cmd = 'find . -type f | grep -i -v "/\." | sort'
     if a:0 == 1
         let cmd = cmd.' | grep '.a:1
     endif
@@ -104,7 +104,7 @@ function! s:FileFinder_SetMaps()
 endfunction
 
 function! FileFinder_Refresh()
-    let cmd = 'find ./ -type f | grep -v "/\." | sort'
+    let cmd = 'find . -type f | grep -v "/\." | sort'
     setlocal modifiable
     call s:FileFinder_Execute(cmd)
     setlocal nomodifiable
