@@ -23,7 +23,7 @@ Plugin 'quanhengzhuang/vim-filefinder'
 
 The following shortcuts are recommended.
 ```vim
-map <leader>a :FileFind<CR>
+map <leader>a :FinderFind<CR>
 ```
 
 The key bindings in the filefinder buffer.
